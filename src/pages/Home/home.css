@@ -1,0 +1,282 @@
+.home {
+  margin-left: 19em;
+  display: flex;
+  height: 100vh;
+  width: 70%;
+  margin-left: 18.2em;
+}
+
+.home__left {
+  flex-grow: 3;
+  border-right: 1px solid #6666;
+}
+.home__right {
+  flex-grow: 4;
+}
+
+header {
+  height: 72px;
+  border-bottom: 1px solid #6666;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.home__title {
+  color: #000;
+  font-family: Segoe UI;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.tweet {
+  height: 162px;
+  border-bottom: 1px solid #6666;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.tweet-btn {
+  display: inline-flex;
+  padding: 15px 25px;
+  align-items: center;
+  background-color: #9bd2f7;
+  border-radius: 120px;
+  color: var(--White, #fff);
+  font-family: Segoe UI;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 17px */
+  border: 1px solid transparent;
+  margin-bottom: 3px;
+  margin-right: 18px;
+}
+
+.tweet__left {
+  display: flex;
+  align-items: flex-start;
+  height: 162px;
+}
+.tweet__left-logo {
+  margin-left: 22px;
+}
+.tweet__write {
+  margin-top: 11px;
+  margin-left: 15px;
+}
+.tweet__write h2 {
+  color: var(--Gray-3, #828282);
+  font-family: Segoe UI;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.tweet__links {
+  margin-top: 51px;
+  column-gap: 20px;
+}
+.tweet__links a {
+  text-decoration: none;
+}
+.tweet__posts {
+  display: flex;
+  flex-direction: column;
+}
+
+.tweet__post {
+  display: flex;
+  align-self: start;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #6666;
+  width: 100%;
+}
+
+.tweet__user-img {
+  width: 60px;
+  height: 60px;
+  margin-left: 22px;
+  margin-top: 30px;
+}
+.post__info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+.post__user-info {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.post__user-info h2 {
+  color: #000;
+  font-family: Segoe UI;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.post__user-info h3 {
+  color: #666;
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.post__user-info span {
+  color: #666;
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.post__text {
+  margin-top: 5px;
+}
+.post__text p {
+  color: #000;
+  font-family: Segoe UI;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.post__data {
+  display: flex;
+  margin-top: 22px;
+  column-gap: 20px;
+}
+.post__comment,
+.post__retweet,
+.post__like,
+.post__share,
+.post__statistics {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+.post__comment span,
+.post__retweet span,
+.post__like span,
+.post__share span,
+.post__statistics span {
+  color: #536471;
+  font-family: Segoe UI;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.search-btn-tweet {
+  margin-top: 10px;
+  color: #5c6c79;
+  font-family: Segoe UI;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 31px;
+  padding: 20px 15px;
+  background: #eff3f4;
+  height: 40px;
+  margin-left: 10px;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+.home__right {
+  padding: 20px;
+}
+.trends {
+  border-radius: 10px;
+  margin-top: 20px;
+  background: #eff3f4;
+  padding: 10px;
+}
+.trends__header {
+  display: flex;
+  justify-content: space-between;
+}
+.trends__header h2 {
+  color: #000;
+  font-family: Segoe UI;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.trend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.trends a {
+  text-decoration: none;
+  outline: none;
+  margin-top: 20px;
+}
+
+.might-like {
+  border-radius: 10px;
+  margin-top: 20px;
+  background: #eff3f4;
+  padding: 10px;
+}
+.might-like h2 {
+  color: #000;
+  font-family: Segoe UI;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.might-like__user {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.might-like__user h3 {
+  color: #000;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 10px;
+}
+.might-like__user span {
+  color: #536471;
+  font-family: Segoe UI;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.btn-follow {
+  border-radius: 50px;
+  background: #000;
+  color: #fff;
+  padding: 5px 15px;
+  height: 30px;
+  cursor: pointer;
+  border: 1ppx solid transparent;
+}
+
+.might-like a {
+  text-decoration: none;
+  outline: none;
+  margin-top: 20px;
+}

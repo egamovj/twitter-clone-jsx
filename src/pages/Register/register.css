@@ -1,0 +1,21 @@
+.register {
+    display: flex;
+    flex-direction: column;
+}
+
+.register input {
+   width: 670px;
+   padding: 23px;
+   margin-top: 30px;
+}
+
+.register button {
+    margin-top: 30px;
+    padding: 18px;
+    background-color: #1DA1F2;
+    border: none;
+    border-radius: 76px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
